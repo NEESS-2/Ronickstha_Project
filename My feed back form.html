@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Back Form</title>
+</head>
+
+<body>
+    <h2>My Feed Back Form</h2>
+    <form>
+        <ul type="circle">
+            <ul type="circle">
+                <li>
+                    Name:
+                    <input type="text">
+                </li>
+                <li>
+                    Email:
+                    <input type="email">
+                </li>
+                <li>
+                    Password:
+                    <input type="password">
+                </li><br>
+                <li>
+                    Please Check all the emotions that apply to you:
+                </li>
+                <ul type="circle">
+                    <li>
+                        Angry
+                        <input type="checkbox">
+                    </li>
+                    <li>
+                        sad
+                        <input type="checkbox">
+                    </li>
+                    <li>
+                        Happy
+                        <input type="checkbox">
+                    </li>
+                    <li>
+                        Ambivalent
+                        <input type="checkbox">
+                    </li>
+                </ul>
+                <li>
+                    How satisfied were you with our Services?
+                </li>
+                <ul type="circle">
+                    <li>
+                        Very satisfied
+                        <input type="radio">
+                    </li>
+                    <li>
+                        Satisfied
+                        <input type="radio">
+                    </li>
+                    <li>
+                        Didn't care
+                        <input type="radio">
+                    </li>
+                    <li>
+                        Dissatisfied
+                        <input type="radio">
+                    </li>
+                    <li>
+                        Very dissatisfied
+                        <input type="radio">
+                    </li>
+                </ul>
+                <li>
+                    Further comments:
+                    <textarea cols="25" rows="3"></textarea>
+                </li>
+                <li>
+                    Bio photo:
+                    <input type="text">
+                    <input type="submit" value="Choose...">
+                </li>
+                <li>
+                    Location visited:
+                    <input list="country">
+                    <datalist id="country">
+                        <option>Nepal</option>
+                        <option>India</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                        <option>Korea</option>
+                        <option>Africa</option>
+                        <option>Bhutan</option>
+                        <option>U.K</option>
+                        <option>Austrila</option>
+                    </datalist>
+                </li>
+            </ul>
+            <li>
+                <input type="submit">
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
